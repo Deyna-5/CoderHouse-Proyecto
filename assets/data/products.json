@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camiseta",
+    "precio": 30,
+    "imagen": "assets/images/tshirt2.jpeg",
+    "imagenDos": "assets/images/tshirt4.jpeg",
+    "shoppingCartImage": "assets/images/shopping-cart-tshirt.jpg",
+    "tallas": {
+      "Extra-pequeña": "XS",
+      "Pequeña": "S",
+      "Mediana": "M",
+      "Grande": "L",
+      "Extra-grande": "XL"
+    },
+    "colores": {
+      "1": "Rojo",
+      "2": "Azul",
+      "3": "Verde",
+      "4": "Amarrillo",
+      "5": "Negro",
+      "6": "Blanco"
+    }
+  },
+
+  {
+    "id": 2,
+    "nombre": "Pantalon",
+    "precio": 60,
+    "imagen": "assets/images/denim.jpeg",
+    "imagenDos": "assets/images/denim.jpeg",
+    "shoppingCartImage": "assets/images/shopping-cart-denim.jpg",
+    "tallas": {
+      "Extra-pequeña": "XS",
+      "Pequeña": "S",
+      "Mediana": "M",
+      "Grande": "L",
+      "Extra-grande": "XL"
+    },
+    "colores": {
+      "1": "Rojo",
+      "2": "Azul",
+      "3": "Verde",
+      "4": "Amarrillo",
+      "5": "Negro",
+      "6": "Blanco"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Sudadera",
+    "precio": 35,
+    "imagen": "assets/images/sweater3.jpeg",
+    "imagenDos": "assets/images/sweater3.jpeg",
+    "shoppingCartImage": "assets/images/shopping-cart-sweater1.jpeg",
+    "tallas": {
+      "Extra-pequeña": "XS",
+      "Pequeña": "S",
+      "Mediana": "M",
+      "Grande": "L",
+      "Extra-grande": "XL"
+    },
+    "colores": {
+      "1": "Rojo",
+      "2": "Azul",
+      "3": "Verde",
+      "4": "Amarrillo",
+      "5": "Negro",
+      "6": "Blanco"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Zapatos",
+    "precio": 45,
+    "imagen": "assets/images/shoes2.jpeg",
+    "imagenDos": "assets/images/shoes2.jpeg",
+    "shoppingCartImage": "assets/images/shopping-cart-shoes.jpeg",
+    "tallas": {
+      "Extra-pequeña": "35",
+      "Pequeña": "36",
+      "Mediana": "37",
+      "Grande": "38",
+      "Extra-grande": "39"
+    },
+    "colores": {
+      "1": "Rojo",
+      "2": "Azul",
+      "3": "Verde",
+      "4": "Amarrillo",
+      "5": "Negro",
+      "6": "Blanco"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Medias",
+    "precio": 15,
+    "imagen": "assets/images/socks2.jpeg",
+    "imagenDos": "assets/images/socks3.jpeg",
+    "shoppingCartImage": "assets/images/shopping-cart-socks.jpg",
+    "tallas": {
+      "Extra-pequeña": "XS",
+      "Pequeña": "S",
+      "Mediana": "M",
+      "Grande": "L",
+      "Extra-grande": "XL"
+    },
+    "colores": {
+      "1": "Rojo",
+      "2": "Azul",
+      "3": "Verde",
+      "4": "Amarrillo",
+      "5": "Negro",
+      "6": "Blanco"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Sueter",
+    "precio": 40,
+    "imagen": "assets/images/sweater6.jpeg",
+    "imagenDos": "assets/images/sweater5.jpeg",
+    "shoppingCartImage": "assets/images/shopping-cart-sweater2.jpg",
+    "tallas": {
+      "Extra-pequeña": "XS",
+      "Pequeña": "S",
+      "Mediana": "M",
+      "Grande": "L",
+      "Extra-grande": "XL"
+    },
+    "colores": {
+      "1": "Rojo",
+      "2": "Azul",
+      "3": "Verde",
+      "4": "Amarrillo",
+      "5": "Negro",
+      "6": "Blanco"
+    }
+  }
+]

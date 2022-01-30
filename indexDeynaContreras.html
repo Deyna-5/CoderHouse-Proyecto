@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="Practica Clase #8">
+	  <meta name="author" content="Deyna Contreras">
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- MI CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/style/cssDeynaContreras.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- SCRIPTS BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- SWEET ALERT <3-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--JQUERT-->
+    <script src="assets/scripts/jquery.min.js"></script>
+    <!-- MI SCRIPT -->
+    <script defer src="assets/scripts/loguinForm.js"></script>
+    <script defer src="assets/scripts/loadProducts.js"></script>
+    <script defer src="assets/scripts/scriptDeynaContreras.js"></script>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="just-cloting-brand">JustClothing</span></a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+		    		<ul class="navbar-nav ml-auto">
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">Nosotros</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">Contacto</a>
+		      		</li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-light text-secondary text-center" data-toggle="modal" data-target="#exampleModalFourth" id="shopping-car">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </li>
+		    	  </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- FIN NAVBAR -->
+    
+    <!-- MAIN -->
+    <div class="container">
+      <div class="row">
+
+        <!-- HEADER -->
+        <div class="col-md-12 mb-5">
+          <div class="row">
+            <div class="col-md-6 mt-5">
+              <figure class="figure">
+                <img src="https://images.pexels.com/photos/5886033/pexels-photo-5886033.jpeg?cs=srgb&dl=pexels-polina-kovaleva-5886033.jpg&fm=jpg" class="figure-img img-fluid rounded" alt="...">
+              </figure>
+            </div>
+
+            <div class="col-md-6 mt-5 pl-5">
+              <h1 class="mt-5 mb-4 display-4 font-weight-bold title pb-lg-4 pl-4 text-black-50">Ropa con estilo<br> en tendencia<br>al mejor precio</h1>
+            </div>
+          </div>
+        </div>
+        <!-- FIN HEADER -->
+        
+        <!-- TITULO PRODUCTOS -->
+        <div class="col-md-12 text-center mt-5 mb-3">
+          <div class="row">
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6">
+              <h3 class="font-weight-light muted">NUESTROS PRODUCTOS</h3>
+            </div>
+
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+        <!-- FIN TITULO PRODUCTOS -->
+
+        <!-- FORMULARIO PRODUCTOS -->
+        <div class="col-md-12 mt-2 mb-5">
+          <div id="productsForm" class="row row-cols-3">
+            <!--SE CARGA DESDE MI JSON CON AJAX <3-->
+          </div>
+        </div>
+        <!-- FIN FORMULARIO PRODUCTOS -->
+      </div>
+    </div>
+    <!-- FIN MAIN -->
+
+    <!-- MODALS -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"></div>
+
+    <!-- FIN MODALS -->
+
+    <!-- CARRITO DE COMPRAS -->
+    <div class="modal fade" id="exampleModalFourth" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row"id="shopping-car-body"></div>
+            <div>
+              <button class="btn btn-success" onclick="endShopping()" id="finalizar-compra">Finalizar Compra</button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="close-shopping-cart" type="button" class="btn btn-block btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN CARRITO DE COMPRAS -->
+
+    <!--MODAL PARA EL LOGUEO-->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="close" id="close-button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row pb-4">
+              <div class="col-md-12 my-3">
+                <h3>Bienvenido</h3>
+                <p class="lead">Para poder continuar necesitas registrarte</p>
+              </div>
+
+              <div class="col-md-12">
+                <form id="loguin-form">
+                  <div class="form-group">
+                    <label for="name-input">Nombre</label>
+                    <input type="string" class="form-control" id="name-input" aria-describedby="nameHelp">
+                    <small id="nameHelp" class="form-text text-danger"></small>
+                  </div>
+                  <div class="form-group">
+                    <label for="email-input">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-danger"></small>
+                  </div>
+                  <div class="form-group">
+                    <label for="password-input">Password</label>
+                    <input type="password" class="form-control" id="password-input">
+                    <small id="passwordHelp" class="form-text text-danger"></small>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary mt-3">Crear cuenta</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-primary d-none" id="button-login-modal" data-toggle="modal" data-target="#staticBackdrop">
+    </button>
+    <!--FIN MODAL PARA EL LOGEO-->
+  </body>
+</html>

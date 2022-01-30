@@ -1,0 +1,21 @@
+.just-cloting-brand{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+.navbar{
+	background-color: #A97D70;
+}
+
+.figure{
+	width: 37.5rem;
+}
+
+.title{
+	border-bottom: 2px solid #7F7F7F;
+	text-transform: uppercase;
+}
+
+.img-style{
+	width: 6.25rem;
+}
