@@ -67,12 +67,12 @@
           <div class="row">
             <div class="col-md-6 mt-5">
               <figure class="figure">
-                <img src="https://images.pexels.com/photos/5886033/pexels-photo-5886033.jpeg?cs=srgb&dl=pexels-polina-kovaleva-5886033.jpg&fm=jpg" class="figure-img img-fluid rounded" alt="...">
+                <img src="https://images.pexels.com/photos/5886033/pexels-photo-5886033.jpeg?cs=srgb&dl=pexels-polina-kovaleva-5886033.jpg&fm=jpg" class="figure-img img-fluid rounded headanimate" alt="...">
               </figure>
             </div>
 
             <div class="col-md-6 mt-5 pl-5">
-              <h1 class="mt-5 mb-4 display-4 font-weight-bold title pb-lg-4 pl-4 text-black-50">Ropa con estilo<br> en tendencia<br>al mejor precio</h1>
+              <h1 class="headanimate mt-5 mb-4 display-4 font-weight-bold title pb-lg-4 pl-4 text-black-50">Ropa con estilo<br> en tendencia<br>al mejor precio</h1>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@
 
     <!--MODAL PARA EL LOGUEO-->
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header d-none">
             <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
@@ -153,33 +153,43 @@
             </button>
           </div>
           <div class="modal-body">
-            <div class="row pb-4">
-              <div class="col-md-12 my-3">
-                <h3>Bienvenido</h3>
-                <p class="lead">Para poder continuar necesitas registrarte</p>
+            <div class="row pb-1">
+
+              <div class="col-md-4">
+                <img src="assets/images/model5.jpeg" class="img-fluid rounded" alt="">
               </div>
 
-              <div class="col-md-12">
-                <form id="loguin-form">
-                  <div class="form-group">
-                    <label for="name-input">Nombre</label>
-                    <input type="string" class="form-control" id="name-input" aria-describedby="nameHelp">
-                    <small id="nameHelp" class="form-text text-danger"></small>
-                  </div>
-                  <div class="form-group">
-                    <label for="email-input">Correo electrónico</label>
-                    <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-danger"></small>
-                  </div>
-                  <div class="form-group">
-                    <label for="password-input">Password</label>
-                    <input type="password" class="form-control" id="password-input">
-                    <small id="passwordHelp" class="form-text text-danger"></small>
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-12 my-3">
+                    <h3 class="display-4">Bienvenido</h3>
+                    <p class="lead lead-size">Para poder continuar necesitas registrarte</p>
                   </div>
 
-                  <button type="submit" class="btn btn-primary mt-3">Crear cuenta</button>
-                </form>
+                  <div class="col-md-12">
+                    <form id="loguin-form">
+                      <div class="form-group">
+                        <label for="name-input">Nombre</label>
+                        <input type="string" class="form-control" id="name-input" aria-describedby="nameHelp">
+                        <small id="nameHelp" class="form-text text-danger"></small>
+                      </div>
+                      <div class="form-group">
+                        <label for="email-input">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-danger"></small>
+                      </div>
+                      <div class="form-group">
+                        <label for="password-input">Password</label>
+                        <input type="password" class="form-control" id="password-input">
+                        <small id="passwordHelp" class="form-text text-danger"></small>
+                      </div>
+
+                      <button type="submit" class="btn btn-success mt-5">Crear cuenta</button>
+                    </form>
+                  </div>
+                </div>
               </div>
+              
             </div>
 
           </div>
