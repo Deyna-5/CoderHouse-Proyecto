@@ -23,3 +23,21 @@
 .lead-size{
 	font-size: 23px;
 }
+
+.rebote{
+	-webkit-animation: 2s rebote 1;
+}
+@-webkit-keyframes rebote{
+	20%, 50%, 70%, 90%{
+		-webkit-transform: translateY(0px);
+	}
+	40%{
+		-webkit-transform: translateY(-45px);
+	}
+	60%{
+		-webkit-transform: translateY(-25px);
+	}
+	80%{
+		-webkit-transform: translateY(-15px);
+	}
+}
